@@ -1,0 +1,16 @@
+body{
+    background-color: #edf5e1;
+    color: #053863
+}
+.btn-custom{
+    background-color: #5cdb95;
+    color: white;
+    border: none;
+}
+.btn-custom:hover{
+    background-color: #379683;
+}
+.header-section{
+    background: url(../img/header.jpg) no-repeat center center/cover;
+    background-position: bottom;
+}
