@@ -2,6 +2,13 @@ body{
     background-color: #edf5e1;
     color: #053863
 }
+.navbar{
+    background-color: #05386b;   
+}
+.navbar-brand, .nav-link, .navbar-toggler{
+    color: #edf5e1 !important;
+
+}
 .btn-custom{
     background-color: #5cdb95;
     color: white;
@@ -10,7 +17,29 @@ body{
 .btn-custom:hover{
     background-color: #379683;
 }
+.table-custom{
+    background-color: white;
+    border: 1px solid #05386b;
+}
+.thumbnail-img{
+    border-radius: 15px;
+}
 .header-section{
     background: url(../img/header.jpg) no-repeat center center/cover;
     background-position: bottom;
+    color: white;
+    height: 600px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*
+        Photo by <a href="https://unsplash.com/@cbarbalis?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Barbalis</a> on <a href="https://unsplash.com/photos/silver-imac-with-keyboard-and-mouse-n2M2SBQE6Iw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+    */
+}
+footer{
+    background-color: #05386b;
+    color: white;
 }
