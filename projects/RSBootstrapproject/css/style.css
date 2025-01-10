@@ -1,0 +1,39 @@
+.btn-custom{
+    background-color: blue;
+    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.header-section{
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    height: 600px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*
+        Photo by <a href="https://openclipart.org/detail/285997/colang-flag">Openclipart</a>
+
+    */
+}
+.navbar{
+    background-color: purple;   
+}
+.navbar-brand, .nav-link, .navbar-toggler{
+    color: white !important;
+
+}
+.btn-custom:hover{
+    background-color: lightblue;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
