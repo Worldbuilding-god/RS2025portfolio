@@ -1,3 +1,6 @@
+*{
+    text-align: center;
+}
 .btn-custom{
     background-color: blue;
     color: white;
@@ -40,6 +43,12 @@
 .cust1{
     margin: 10px;
 }
+.cust2{
+    background-image: url(../img/Photoon1.jpg);
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+}
 .container{
     display: grid;
     grid-template-columns: repeat(1, minmax(230px, 1fr));
@@ -55,7 +64,7 @@
 @media screen and (min-width:1280px){
     .container {
         display:grid;
-        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
         grid-gap: 20px;
         padding: 20px;
     }
